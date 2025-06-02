@@ -169,10 +169,10 @@ class HomePageView extends GetView<HomePageController> {
                     } else {
                       return ListView.builder(
                         padding: EdgeInsets.symmetric(horizontal: 10.w),
-                        itemCount: controller.filteredNotes.length,
+                        itemCount: snapshot.data!.length,
                         itemBuilder: (context, index) {
                           return Dismissible(
-                            key: ValueKey(controller.filteredNotes[index].id),
+                            key: ValueKey(snapshot.data![index].id),
                             direction: DismissDirection.endToStart,
                             background: Container(
                               height: 50.h,
