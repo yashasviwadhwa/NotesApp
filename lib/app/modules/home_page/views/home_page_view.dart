@@ -60,7 +60,7 @@ class HomePageView extends GetView<HomePageController> {
             return Icon(isDark ? Icons.light_mode : Icons.dark_mode);
           }),
           onPressed: () {
-            controller.toggleTheme(); // Toggle theme on click
+            controller.toggleTheme();
           },
         ),
         title: const Text(

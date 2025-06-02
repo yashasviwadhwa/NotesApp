@@ -22,9 +22,9 @@ class HomePageController extends GetxController {
   @override
   void onInit() {
     super.onInit();
-    // searchController.addListener(() {
-    //   filterNotes(searchController.text);
-    // });
+    searchController.addListener(() {
+      filterNotes(searchController.text);
+    });
     loadNotes();
   }
 
