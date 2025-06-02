@@ -1,7 +1,6 @@
 import "package:flutter/material.dart";
 import "package:flutter_screenutil/flutter_screenutil.dart";
 import "package:get/get.dart";
-import "package:notes_app/app/modules/home_page/controllers/home_page_controller.dart";
 import "package:notes_app/app/modules/home_page/views/home_page_view.dart";
 import "package:notes_app/app/services/Database_helper.dart";
 import "package:notes_app/app/theme.dart";

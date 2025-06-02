@@ -11,7 +11,7 @@ class DatabaseHelper extends GetxService {
   factory DatabaseHelper() => _instance;
 
   DatabaseHelper._internal();
-
+  
   Future<Database> get database async {
     if (_database != null) {
       return _database!;
